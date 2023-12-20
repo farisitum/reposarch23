@@ -65,7 +65,7 @@ shapes.forEach(shape => scene.add(shape));
 const gltfLoader = new THREE.GLTFLoader();
 let mesh;
 gltfLoader.load(
-  "./models/3dmesh.glb",
+  ".3dmesh.glb",
   function (gltf) {
     mesh = gltf.scene;
     mesh.scale.set(20, 20, 20);
